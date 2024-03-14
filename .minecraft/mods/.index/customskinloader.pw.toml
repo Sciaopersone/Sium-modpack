@@ -1,0 +1,14 @@
+name = "CustomSkinLoader"
+filename = "CustomSkinLoader_ForgeActive-14.19.1.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/idMHQ4n2/versions/dvl8hhBz/CustomSkinLoader_ForgeActive-14.19.1.jar"
+hash-format = "sha512"
+hash = "26a14eb5e5a12d441deb8c789650c7c291483b6bbd506b4697ad430c8c12cefcad3d65f301506579b255f420f406cb16e57fe2a18ebc451f85b2386d21ecb132"
+
+[update]
+[update.modrinth]
+mod-id = "idMHQ4n2"
+version = "dvl8hhBz"
