@@ -1,0 +1,14 @@
+name = "Let's Forge Bronze And Iron(Roman Empire Update)"
+filename = "Lets_Forge_BronzeAndIron_[1_20_1]_3_9.jar"
+side = "both"
+
+[download]
+mode = "url"
+url = "https://cdn.modrinth.com/data/yjNrwxNh/versions/BgmQYAS7/Lets_Forge_BronzeAndIron_%5B1_20_1%5D_3_9.jar"
+hash-format = "sha512"
+hash = "5dced383279c718a7e9542b01bfd05805ffdc6648c9fddc229e8008c28f8841aa1eeb353d83a9591635d5619751aed050aa9644e2230bc451f56f55e88844eb7"
+
+[update]
+[update.modrinth]
+mod-id = "yjNrwxNh"
+version = "BgmQYAS7"
