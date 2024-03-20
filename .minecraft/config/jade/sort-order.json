@@ -47,9 +47,16 @@
   "jade:mod_name": null,
   "jade:distance": null,
   "jade:block_face": null,
-  "waystones:waystone": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
+  "supplementaries:hat_stand": null,
+  "pipez:pipe": null,
   "twilightforest:quest_ram_wool": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null,
+  "supplementaries:hat_stand": null,
   "corpse:corpse": null,
+  "waystones:waystone": null,
   "minecraft:brewing_stand": null,
   "minecraft:beehive": null,
   "minecraft:command_block": null,
@@ -94,5 +101,6 @@
   "jade:registry_name": null,
   "jade:mod_name": null,
   "jade:distance": null,
-  "jade:block_face": null
+  "jade:block_face": null,
+  "pipez:pipe": null
 }

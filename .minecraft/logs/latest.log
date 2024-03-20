@@ -1,0 +1,833 @@
+[20Mar2024 22:06:27.844] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--username, Sciaopersone, --version, 1.20.1, --gameDir, C:/Users/Luca/AppData/Roaming/PrismLauncher/instances/SIUM-modpack/.minecraft, --assetsDir, C:/Users/Luca/AppData/Roaming/PrismLauncher/assets, --assetIndex, 5, --uuid, 8a283935d1644443800ed78ede50bbdb, --accessToken, ????????, --userType, msa, --versionType, release, --launchTarget, forgeclient, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --width, 854, --height, 480]
+[20Mar2024 22:06:27.848] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[20Mar2024 22:06:28.563] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[20Mar2024 22:06:28.631] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[20Mar2024 22:06:28.696] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[20Mar2024 22:06:28.784] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Luca/AppData/Roaming/PrismLauncher/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%23150!/ Service=ModLauncher Env=CLIENT
+[20Mar2024 22:06:28.809] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: AMD Radeon(TM) Graphics GL version 4.6.0 Core Profile Context 24.1.1.231127, ATI Technologies Inc.
+[20Mar2024 22:06:29.288] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Luca\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\fmlcore\1.20.1-47.2.0\fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[20Mar2024 22:06:29.292] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Luca\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.2.0\javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[20Mar2024 22:06:29.294] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Luca\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.2.0\lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[20Mar2024 22:06:29.296] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Luca\AppData\Roaming\PrismLauncher\libraries\net\minecraftforge\mclanguage\1.20.1-47.2.0\mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[20Mar2024 22:06:29.484] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[20Mar2024 22:06:29.485] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\Luca\AppData\Roaming\PrismLauncher\instances\SIUM-modpack\.minecraft\mods\curios-forge-5.7.2+1.20.1.jar
+[20Mar2024 22:06:29.486] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[20Mar2024 22:06:31.387] [main/ERROR] [mixin/]: Mixin config dynamiclightsreforged.mixins.json does not specify "minVersion" property
+[20Mar2024 22:06:31.393] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Mar2024 22:06:31.454] [main/ERROR] [mixin/]: Mixin config okzoomer.mixins.json does not specify "minVersion" property
+[20Mar2024 22:06:31.551] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclient' with arguments [--version, 1.20.1, --gameDir, C:\Users\Luca\AppData\Roaming\PrismLauncher\instances\SIUM-modpack\.minecraft, --assetsDir, C:\Users\Luca\AppData\Roaming\PrismLauncher\assets, --uuid, 8a283935d1644443800ed78ede50bbdb, --username, Sciaopersone, --assetIndex, 5, --accessToken, ????????, --userType, msa, --versionType, release, --width, 854, --height, 480]
+[20Mar2024 22:06:31.623] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.14.0+mc1.20.1: 74 options available, 0 override(s) found
+[20Mar2024 22:06:31.624] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[20Mar2024 22:06:31.637] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[20Mar2024 22:06:31.650] [main/INFO] [fpsreducer/]: OptiFine was NOT detected.
+[20Mar2024 22:06:31.650] [main/INFO] [fpsreducer/]: OptiFabric was NOT detected.
+[20Mar2024 22:06:31.660] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 144 options available, 3 override(s) found
+[20Mar2024 22:06:31.661] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Searching for graphics cards...
+[20Mar2024 22:06:31.860] [main/INFO] [Embeddium-GraphicsAdapterProbe/]: Found graphics card: GraphicsAdapterInfo[vendor=AMD, name=AMD Radeon(TM) Graphics, version=DriverVersion=31.0.21910.5]
+[20Mar2024 22:06:31.889] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Mar2024 22:06:31.914] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 126 options available, 1 override(s) found
+[20Mar2024 22:06:31.977] [main/INFO] [Embeddium Extra/]: Loaded configuration file for Sodium Extra: 34 options available, 0 override(s) found
+[20Mar2024 22:06:31.986] [main/INFO] [Puzzles Lib/]: Loading 101 mods:
+	- advancementplaques 1.5.1
+	- aether 1.20.1-1.3.1-neoforge
+	- alexsmobs 1.22.8
+	- amendments 1.20-1.1.10
+	- appleskin 2.5.1+mc1.20.1
+	- architectury 9.2.14
+	- balm 7.2.2
+	- betterarcheology 1.1.7-1.20.1
+	- betterdeserttemples 1.20-Forge-3.0.3
+	- betterjungletemples 1.20-Forge-2.0.4
+	- betteroceanmonuments 1.20-Forge-3.0.4
+	- betterthirdperson 1.9.0
+	- biomesoplenty 18.0.0.598
+	- blue_skies 1.3.31
+	- boatiview 0.0.5
+	- bookshelf 20.1.9
+	- born_in_chaos_v1 1.0.0
+	- bygonenether 1.3.2
+	- cataclysm 1.0
+	- citadel 2.5.4
+	- cloth_config 11.1.118
+	- clumps 12.0.0.3
+	- collective 7.40
+	- controlling 12.0.2
+	- corpse 1.20.1-1.0.12
+	- cosmeticarmorreworked 1.20.1-v1a
+	- cristellib 1.1.5
+	- cumulus_menus 1.20.1-1.0.0-neoforge
+	- curios 5.7.2+1.20.1
+	- customskinloader 14.19.1
+	- deeperdarker 1.2.1
+	- dungeons_arise 2.1.57-1.20.1
+	- dynamiclightsreforged 1.20.1_v1.6.0
+	- embeddium 0.3.9+mc1.20.1
+	- embeddium_extra 0.5.4.2+mc1.20.1-build.118
+	- embeddiumplus 1.2.5
+	- enchdesc 17.0.14
+	- endrem 5.2.3-R-1.20.1
+	- entityculling 1.6.2
+	- ferritecore 6.0.1
+	- forge 47.2.0
+	- fpsreducer 1.20-2.5
+	- ftblibrary 2001.1.5
+	- ftbultimine 2001.1.4
+	- fullbrightnesstoggle 4.0
+	- fusion 1.1.1
+	- geckolib 4.4.4
+	- iceberg 1.1.21
+	- illagerinvasion 8.0.4
+	- illagerrevolutionmod 1.4}
+	- immediatelyfast 1.2.10+1.20.4
+	- ironchests 5.0.2
+	- ironfurnaces 4.1.6
+	- jade 11.8.0
+	- jei 15.3.0.4
+	- jet_and_elias_armors 1.0.0
+	- konkrete 1.8.0
+	- legendarytooltips 1.4.5
+	- logbegone 1.0.8
+	- lootbeams 1.20.1
+	- minecraft 1.20.1
+	- mixinextras 0.3.5
+	- mixinsquared 0.1.1
+	- mob_grinding_utils 1.20.1-1.1.0
+	- modernfix 5.14.0+mc1.20.1
+	- moonlight 1.20-2.11.4
+	- mousetweaks 2.25
+	- mr_stellarity 2.0d
+	- nitrogen_internals 1.20.1-1.0.7-neoforge
+	- nochatreports 1.20.1-v2.2.2
+	- oculus 1.6.15a
+	- okzoomer 3.0.1
+	- pipez 1.20.1-1.2.6
+	- prism 1.0.5
+	- puzzlesaccessapi 8.0.7
+	- puzzleslib 8.1.18
+	- radium 0.12.2+git.5f80f74
+	- realmrpg_skeletons 1.0.3
+	- reeses_sodium_options 1.0.4
+	- regions_unexplored 0.5.5
+	- resourcefullib 2.0.6
+	- rrls 3.2.0-1.20.1-forge
+	- rubidium 0.7.1
+	- searchables 1.0.2
+	- skyvillages 1.0.3
+	- sophisticatedbackpacks 3.20.3.1034
+	- sophisticatedcore 0.6.11.578
+	- storagedrawers 12.0.3
+	- structure_gel 2.16.1
+	- supplementaries 1.20-2.8.6
+	- t_and_t 0.0NONE
+	- terrablender 3.0.1.4
+	- textrues_embeddium_options 0.1.5+mc1.20.1
+	- torchmaster 20.1.5
+	- twilightforest 4.3.2145
+	- voicechat 1.20.1-2.5.9
+	- waystones 14.1.3
+	- weaponmaster 1.4.2-1.19.2
+	- xaerominimap 24.0.1
+	- xaeroworldmap 1.38.1
+	- yungsapi 1.20-Forge-4.0.4
+[20Mar2024 22:06:31.988] [main/WARN] [mixin/]: Reference map 'Rrls-forge-refmap.json' for rrls.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Mar2024 22:06:31.990] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Mar2024 22:06:32.863] [main/WARN] [mixin/]: Error loading class: dev/nolij/zume/lexforge18/ZumeKeyBind (java.lang.ClassNotFoundException: dev.nolij.zume.lexforge18.ZumeKeyBind)
+[20Mar2024 22:06:32.863] [main/WARN] [mixin/]: @Mixin target dev.nolij.zume.lexforge18.ZumeKeyBind was not found embeddiumplus.mixin.json:zume.ZumeKeyBindsForgeMixin
+[20Mar2024 22:06:32.864] [main/WARN] [mixin/]: Error loading class: dev/nolij/zume/lexforge/ZumeKeyBind (java.lang.ClassNotFoundException: dev.nolij.zume.lexforge.ZumeKeyBind)
+[20Mar2024 22:06:32.864] [main/WARN] [mixin/]: @Mixin target dev.nolij.zume.lexforge.ZumeKeyBind was not found embeddiumplus.mixin.json:zume.ZumeKeyBindsForgeMixin
+[20Mar2024 22:06:33.333] [main/INFO] [fpsreducer/]: bre2el.fpsreducer.mixin.RenderSystemMixin will be applied.
+[20Mar2024 22:06:33.334] [main/INFO] [fpsreducer/]: bre2el.fpsreducer.mixin.WindowMixin will NOT be applied because OptiFine was NOT detected.
+[20Mar2024 22:06:33.727] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[20Mar2024 22:06:33.904] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/client/renderer/HangingCanvasSignRenderer (java.lang.ClassNotFoundException: vectorwing.farmersdelight.client.renderer.HangingCanvasSignRenderer)
+[20Mar2024 22:06:33.905] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/client/renderer/CanvasSignRenderer (java.lang.ClassNotFoundException: vectorwing.farmersdelight.client.renderer.CanvasSignRenderer)
+[20Mar2024 22:06:34.184] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.WorldRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.185] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.ClientWorldMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.185] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.world.sky.BackgroundRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.186] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.gui.font.GlyphRendererMixin' as rule 'mixin.features.render.gui.font' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.186] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.shadows.EntityRenderDispatcherMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.186] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.ModelPartMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.186] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.fast_render.CuboidMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.186] [main/WARN] [Embeddium/]: Force-disabling mixin 'features.render.entity.cull.EntityRendererMixin' as rule 'mixin.features.render.entity' (added by mods [oculus]) disables it and children
+[20Mar2024 22:06:34.351] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20Mar2024 22:06:34.588] [main/INFO] [mixin/]: Mixing client.MixinMinecraft from mixins/common/nochatreports.mixins.json into net.minecraft.client.Minecraft
+[20Mar2024 22:06:35.283] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (9.367 s after launch)
+[20Mar2024 22:06:35.358] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Mar2024 22:06:35.359] [pool-4-thread-1/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[20Mar2024 22:06:35.424] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20Mar2024 22:06:35.424] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[20Mar2024 22:06:35.425] [pool-4-thread-1/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[20Mar2024 22:06:36.463] [pool-4-thread-1/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1176 milliseconds
+[20Mar2024 22:06:36.513] [pool-4-thread-1/INFO] [mixin/]: Mixing common.MixinFriendlyByteBuf from mixins/common/nochatreports.mixins.json into net.minecraft.network.FriendlyByteBuf
+[20Mar2024 22:06:36.513] [pool-4-thread-1/INFO] [mixin/]: Renaming synthetic method lambda$onWriteJsonWithCodec$1(Ljava/lang/Object;Ljava/lang/String;)Lio/netty/handler/codec/EncoderException; to md2e8247$lambda$onWriteJsonWithCodec$1$0 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[20Mar2024 22:06:36.513] [pool-4-thread-1/INFO] [mixin/]: Renaming synthetic method lambda$onReadJsonWithCodec$0(Ljava/lang/String;)Lio/netty/handler/codec/DecoderException; to md2e8247$lambda$onReadJsonWithCodec$0$1 in mixins/common/nochatreports.mixins.json:common.MixinFriendlyByteBuf
+[20Mar2024 22:06:38.086] [pool-4-thread-1/INFO] [mixin/]: Mixing server.MixinServerGamePacketListenerImpl from mixins/common/nochatreports.mixins.json into net.minecraft.server.network.ServerGamePacketListenerImpl
+[20Mar2024 22:06:38.837] [pool-4-thread-1/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
+[20Mar2024 22:06:39.391] [Render thread/INFO] [mixin/]: Mixing client.MixinTitleScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.TitleScreen
+[20Mar2024 22:06:39.402] [Render thread/INFO] [mixin/]: Mixing client.MixinChatScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.ChatScreen
+[20Mar2024 22:06:39.402] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$4()Lnet/minecraft/network/chat/Component; to md2e8247$lambda$onInit$4$0 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen
+[20Mar2024 22:06:39.403] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$3(Lnet/minecraft/client/gui/components/Button;)V to md2e8247$lambda$onInit$3$1 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen
+[20Mar2024 22:06:39.403] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/network/chat/Component; to md2e8247$lambda$onInit$2$2 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen
+[20Mar2024 22:06:39.403] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/client/gui/components/Button;)V to md2e8247$lambda$onInit$1$3 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen
+[20Mar2024 22:06:39.403] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onBeforeMessage$0(Ljava/lang/String;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;Lcom/aizistral/nochatreports/common/encryption/Encryptor;)V to md2e8247$lambda$onBeforeMessage$0$4 in mixins/common/nochatreports.mixins.json:client.MixinChatScreen
+[20Mar2024 22:06:39.482] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Luca/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23338!/assets/.mcassetsroot' uses unexpected schema
+[20Mar2024 22:06:39.482] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/Luca/AppData/Roaming/PrismLauncher/libraries/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar%23338!/data/.mcassetsroot' uses unexpected schema
+[20Mar2024 22:06:39.497] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Mar2024 22:06:40.196] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Sciaopersone
+[20Mar2024 22:06:40.256] [Render thread/INFO] [ModernFix/]: Bypassed Mojang DFU
+[20Mar2024 22:06:40.256] [Render thread/INFO] [mixin/]: Mixing client.MixinToastComponent from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.components.toasts.ToastComponent
+[20Mar2024 22:06:40.259] [Render thread/INFO] [mixin/]: Mixing client.MixinOptions from mixins/common/nochatreports.mixins.json into net.minecraft.client.Options
+[20Mar2024 22:06:40.259] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onlyShowSecureChat$0(Ljava/lang/Boolean;)V to md2e8247$lambda$onlyShowSecureChat$0$0 in mixins/common/nochatreports.mixins.json:client.MixinOptions
+[20Mar2024 22:06:40.304] [Render thread/INFO] [mixin/]: Mixing client.MixinChatComponent from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.components.ChatComponent
+[20Mar2024 22:06:40.304] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$modifyGUIMessage$1()V to md2e8247$lambda$modifyGUIMessage$1$0 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent
+[20Mar2024 22:06:40.304] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$modifyGUIMessage$0(Lnet/minecraft/network/chat/FormattedText;Lnet/minecraft/network/chat/Component;)V to md2e8247$lambda$modifyGUIMessage$0$1 in mixins/common/nochatreports.mixins.json:client.MixinChatComponent
+[20Mar2024 22:06:40.308] [Render thread/INFO] [mixin/]: Mixing client.MixinGuiMessageTagIcon from mixins/common/nochatreports.mixins.json into net.minecraft.client.GuiMessageTag$Icon
+[20Mar2024 22:06:40.308] [Render thread/INFO] [mixin/]: Renaming @Invoker method create(Ljava/lang/String;IIIII)Lnet/minecraft/client/GuiMessageTag$Icon; to create_$md$2e8247$0 in mixins/common/nochatreports.mixins.json:client.MixinGuiMessageTagIcon
+[20Mar2024 22:06:40.352] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[20Mar2024 22:06:40.416] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Vendor: ATI Technologies Inc.
+[20Mar2024 22:06:40.417] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Renderer: AMD Radeon(TM) Graphics
+[20Mar2024 22:06:40.417] [Render thread/INFO] [Embeddium-PostlaunchChecks/]: OpenGL Version: 4.6.0 Core Profile Context 24.1.1.231127
+[20Mar2024 22:06:40.466] [Render thread/WARN] [Embeddium++/Config]: Loading Embeddium++Config
+[20Mar2024 22:06:40.470] [Render thread/INFO] [Embeddium++/Config]: Updating config cache
+[20Mar2024 22:06:40.471] [Render thread/INFO] [Embeddium++/Config]: Cache updated successfully
+[20Mar2024 22:06:40.472] [Render thread/INFO] [ImmediatelyFast/]: Initializing ImmediatelyFast 1.2.10+1.20.4 on AMD Radeon(TM) Graphics (ATI Technologies Inc.) with OpenGL 4.6.0 Core Profile Context 24.1.1.231127
+[20Mar2024 22:06:40.472] [Render thread/INFO] [ImmediatelyFast/]: AMD GPU detected. Enabling coherent buffer mapping
+[20Mar2024 22:06:40.485] [Render thread/INFO] [ImmediatelyFast/]: Found Iris/Oculus 1.6.15a. Enabling compatibility.
+[20Mar2024 22:06:40.602] [Render thread/INFO] [Oculus/]: Debug functionality is disabled.
+[20Mar2024 22:06:40.608] [Render thread/INFO] [Oculus/]: OpenGL 4.5 detected, enabling DSA.
+[20Mar2024 22:06:40.623] [Render thread/INFO] [Oculus/]: Shaders are disabled because no valid shaderpack is selected
+[20Mar2024 22:06:40.623] [Render thread/INFO] [Oculus/]: Shaders are disabled
+[20Mar2024 22:06:40.818] [modloading-worker-0/INFO] [dynamiclightsreforged/]: [LambDynLights] Initializing Dynamic Lights Reforged...
+[20Mar2024 22:06:40.847] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
+[20Mar2024 22:06:40.875] [modloading-worker-0/INFO] [mixin/]: Mixing server.MixinPlayerList from mixins/common/nochatreports.mixins.json into net.minecraft.server.players.PlayerList
+[20Mar2024 22:06:40.954] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinClientConnection from mixins/forge/nochatreports-forge.mixins.json into net.minecraft.network.Connection
+[20Mar2024 22:06:41.014] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_109501_ in embeddium.mixins.json:core.render.world.WorldRendererMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20Mar2024 22:06:41.070] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[20Mar2024 22:06:41.070] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[20Mar2024 22:06:41.072] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[20Mar2024 22:06:41.072] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[20Mar2024 22:06:41.072] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[20Mar2024 22:06:41.072] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[20Mar2024 22:06:41.072] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[20Mar2024 22:06:41.230] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for illagerinvasion:main
+[20Mar2024 22:06:41.263] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[20Mar2024 22:06:41.264] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[20Mar2024 22:06:41.274] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
+[20Mar2024 22:06:41.448] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for illagerinvasion:main
+[20Mar2024 22:06:41.460] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.40.
+[20Mar2024 22:06:41.505] [modloading-worker-0/INFO] [ironfurnaces.IronFurnaces/]: Initializing Update Checker...
+[20Mar2024 22:06:41.507] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Starting Update Check...
+[20Mar2024 22:06:41.545] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id architectury:sync_ids
+[20Mar2024 22:06:41.548] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Mar2024 22:06:41.548] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbultimine:send_shape
+[20Mar2024 22:06:41.553] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[20Mar2024 22:06:41.556] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[20Mar2024 22:06:41.559] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbultimine:sync_config_from_server
+[20Mar2024 22:06:41.561] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[20Mar2024 22:06:41.564] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbultimine:edit_config
+[20Mar2024 22:06:41.568] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftbultimine:sync_ultimine_time
+[20Mar2024 22:06:41.606] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:edit_nbt
+[20Mar2024 22:06:41.610] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[20Mar2024 22:06:41.613] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering S2C receiver with id ftblibrary:sync_known_server_registries
+[20Mar2024 22:06:41.750] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Update Check done!
+[20Mar2024 22:06:41.750] [ Iron Furnaces Update Checker/INFO] [ironfurnaces.IronFurnaces/]: Iron Furnaces is up to date!
+[20Mar2024 22:06:41.853] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[20Mar2024 22:06:41.853] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[20Mar2024 22:06:41.867] [modloading-worker-0/INFO] [Enchantment Descriptions/]: Loaded config file.
+[20Mar2024 22:06:41.868] [modloading-worker-0/INFO] [Enchantment Descriptions/]: Saved config file.
+[20Mar2024 22:06:41.928] [modloading-worker-0/INFO] [NoChatReports/]: KONNICHIWA ZA WARUDO!
+[20Mar2024 22:06:41.929] [modloading-worker-0/INFO] [NoChatReports/]: Default JVM text encoding is: windows-1252
+[20Mar2024 22:06:41.945] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Common.json...
+[20Mar2024 22:06:41.951] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Client.json...
+[20Mar2024 22:06:41.957] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-ServerPreferences.json...
+[20Mar2024 22:06:41.962] [modloading-worker-0/INFO] [NoChatReports/]: Reading config file NoChatReports/NCR-Encryption.json...
+[20Mar2024 22:06:42.041] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager...
+[20Mar2024 22:06:42.047] [modloading-worker-0/INFO] [mezz.jei.library.load.PluginCaller/]: Sending ConfigManager took 4.633 ms
+[20Mar2024 22:06:42.082] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Common.json...
+[20Mar2024 22:06:42.084] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Client.json...
+[20Mar2024 22:06:42.085] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-ServerPreferences.json...
+[20Mar2024 22:06:42.087] [modloading-worker-0/INFO] [NoChatReports/]: Writing config file NoChatReports/NCR-Encryption.json...
+[20Mar2024 22:06:42.090] [modloading-worker-0/INFO] [NoChatReports/]: Client initialization...
+[20Mar2024 22:06:42.107] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinClientPacketListener from mixins/common/nochatreports.mixins.json into net.minecraft.client.multiplayer.ClientPacketListener
+[20Mar2024 22:06:42.108] [modloading-worker-0/INFO] [mixin/]: Mixing client.MixinClientPacketListener from mixins/forge/nochatreports-forge.mixins.json into net.minecraft.client.multiplayer.ClientPacketListener
+[20Mar2024 22:06:42.299] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for puzzleslib:main
+[20Mar2024 22:06:42.327] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing client components for puzzleslib:main
+[20Mar2024 22:06:49.856] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded: 6425544
+[20Mar2024 22:06:49.857] [modloading-worker-0/INFO] [com.sky.weaponmaster.WeaponMaster/]: Total varients loaded (inc. passives + abilities): 3675411168
+[20Mar2024 22:06:51.844] [Render thread/INFO] [Moonlight/]: Initialized block sets in 26ms
+[20Mar2024 22:06:52.973] [Render thread/INFO] [ModernFix/]: Instantiating Mojang DFU
+[20Mar2024 22:06:53.401] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 98 milliseconds
+[20Mar2024 22:06:53.839] [Render thread/INFO] [mixin/]: Mixing client.MixinJoinMultiplayerScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+[20Mar2024 22:06:53.839] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$2()Lnet/minecraft/network/chat/Component; to md2e8247$lambda$onInit$2$0 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen
+[20Mar2024 22:06:53.839] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$1(Lnet/minecraft/client/gui/components/Button;)V to md2e8247$lambda$onInit$1$1 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen
+[20Mar2024 22:06:53.839] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$onInit$0(Lnet/minecraft/client/gui/components/Button;)V to md2e8247$lambda$onInit$0$2 in mixins/common/nochatreports.mixins.json:client.MixinJoinMultiplayerScreen
+[20Mar2024 22:06:53.863] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[20Mar2024 22:06:53.870] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[20Mar2024 22:06:53.873] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[20Mar2024 22:06:53.875] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[20Mar2024 22:06:54.042] [Render thread/INFO] [ModernFix/]: Replacing search trees with 'JEI' provider
+[20Mar2024 22:06:54.337] [Render thread/INFO] [Embeddium/]: Block minecraft:fern had its color provider replaced and will not use per-vertex coloring
+[20Mar2024 22:06:54.337] [Render thread/INFO] [Embeddium/]: Block minecraft:large_fern had its color provider replaced and will not use per-vertex coloring
+[20Mar2024 22:06:54.337] [Render thread/INFO] [Embeddium/]: Block minecraft:tall_grass had its color provider replaced and will not use per-vertex coloring
+[20Mar2024 22:06:54.337] [Render thread/INFO] [Embeddium/]: Block minecraft:grass had its color provider replaced and will not use per-vertex coloring
+[20Mar2024 22:06:54.338] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in block colorizer
+[20Mar2024 22:06:54.344] [Render thread/INFO] [Embeddium/]: Block minecraft:water_cauldron had its color provider replaced and will not use per-vertex coloring
+[20Mar2024 22:06:54.349] [Render thread/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: loaded in item colorizer
+[20Mar2024 22:06:54.473] [Render thread/INFO] [Oculus/]: Hardware information:
+[20Mar2024 22:06:54.474] [Render thread/INFO] [Oculus/]: CPU: 12x AMD Ryzen 5 5600G with Radeon Graphics 
+[20Mar2024 22:06:54.474] [Render thread/INFO] [Oculus/]: GPU: AMD Radeon(TM) Graphics (Supports OpenGL 4.6.0 Core Profile Context 24.1.1.231127)
+[20Mar2024 22:06:54.474] [Render thread/INFO] [Oculus/]: OS: Windows 11 (10.0)
+[20Mar2024 22:06:55.310] [Render thread/INFO] [mixin/]: Mixing client.MixinChatListener from mixins/common/nochatreports.mixins.json into net.minecraft.client.multiplayer.chat.ChatListener
+[20Mar2024 22:06:55.329] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
+[20Mar2024 22:06:55.330] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, Moonlight Mods Dynamic Assets
+[20Mar2024 22:06:55.563] [Render thread/WARN] [Amendments/]: Failed to generate record item texture for defying_starlight. No model / texture found
+[20Mar2024 22:06:55.629] [Finalizer/WARN] [ModernFix/]: One or more BufferBuilders have been leaked, ModernFix will attempt to correct this.
+[20Mar2024 22:06:55.660] [Render thread/INFO] [Amendments/]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (amendments) in: 320 ms
+[20Mar2024 22:06:55.779] [Render thread/INFO] [Supplementaries/]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 119 ms
+[20Mar2024 22:06:55.815] [Thread-0/INFO] [ModernFix/]: Please use /mfrc to reload any changed mod config files
+[20Mar2024 22:06:55.898] [Worker-ResourceReload-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[20Mar2024 22:06:55.897] [Worker-ResourceReload-9/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: idle
+[20Mar2024 22:06:55.898] [Worker-ResourceReload-0/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: idle
+[20Mar2024 22:06:55.904] [Worker-ResourceReload-8/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: idle
+[20Mar2024 22:06:55.940] [Worker-ResourceReload-10/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_1.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_1
+[20Mar2024 22:06:55.940] [Worker-ResourceReload-10/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_2.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_2
+[20Mar2024 22:06:55.940] [Worker-ResourceReload-10/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_hit1.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_hit1
+[20Mar2024 22:06:55.940] [Worker-ResourceReload-10/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_hit2.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_hit2
+[20Mar2024 22:06:55.947] [Worker-ResourceReload-6/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: attack
+[20Mar2024 22:06:56.208] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 1: 1
+[20Mar2024 22:06:56.208] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 2: 2
+[20Mar2024 22:06:56.208] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 3: 3
+[20Mar2024 22:06:56.208] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 4: 4
+[20Mar2024 22:06:56.208] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 5: 5
+[20Mar2024 22:06:56.208] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 6: 6
+[20Mar2024 22:06:56.260] [Worker-ResourceReload-2/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:soul_projectile: [5]
+[20Mar2024 22:06:56.298] [Worker-ResourceReload-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:soul_rune: [5]
+[20Mar2024 22:06:56.299] [Worker-ResourceReload-4/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:curse_rune: [5]
+[20Mar2024 22:06:56.573] [Worker-ResourceReload-6/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[20Mar2024 22:06:56.576] [Worker-ResourceReload-10/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20Mar2024 22:06:56.576] [Worker-ResourceReload-10/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[20Mar2024 22:06:56.576] [Worker-ResourceReload-10/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[20Mar2024 22:06:56.576] [Worker-ResourceReload-10/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[20Mar2024 22:06:56.577] [Worker-ResourceReload-10/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[20Mar2024 22:06:56.637] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[20Mar2024 22:06:56.637] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[20Mar2024 22:06:56.637] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[20Mar2024 22:06:56.637] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[20Mar2024 22:06:56.637] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[20Mar2024 22:06:56.638] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[20Mar2024 22:06:56.638] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[20Mar2024 22:06:56.638] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[20Mar2024 22:06:56.638] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[20Mar2024 22:06:56.638] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[20Mar2024 22:06:56.644] [Worker-ResourceReload-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[20Mar2024 22:06:56.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_stellarity] Starting version check at https://api.modrinth.com/updates/bZgeDzN8/forge_updates.json
+[20Mar2024 22:06:56.752] [Worker-ResourceReload-6/INFO] [voicechat/]: [voicechat] Loading plugins
+[20Mar2024 22:06:56.765] [Worker-ResourceReload-6/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[20Mar2024 22:06:56.765] [Worker-ResourceReload-6/INFO] [voicechat/]: [voicechat] Initializing plugins
+[20Mar2024 22:06:56.765] [Worker-ResourceReload-6/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[20Mar2024 22:06:56.848] [Render thread/INFO] [Supplementaries/]: Finished mod setup in: [0, 2, 0, 1, 0, 0, 8, 1] ms
+[20Mar2024 22:06:56.872] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 3 for type OVERWORLD
+[20Mar2024 22:06:56.873] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 4 for type OVERWORLD
+[20Mar2024 22:06:56.873] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 5 for type OVERWORLD
+[20Mar2024 22:06:56.873] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 2 for type NETHER
+[20Mar2024 22:06:56.873] [Render thread/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 3 for type NETHER
+[20Mar2024 22:06:56.947] [Render thread/INFO] [Moonlight/]: Initialized color sets in 67ms
+[20Mar2024 22:06:57.004] [Worker-ResourceReload-7/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 1/2
+[20Mar2024 22:06:57.017] [Worker-ResourceReload-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:item/soul_projectile: [3, 4, 5]
+[20Mar2024 22:06:57.074] [Worker-ResourceReload-6/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Client-side libs ready to use!
+[20Mar2024 22:06:57.095] [Worker-ResourceReload-4/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2
+[20Mar2024 22:06:57.159] [Worker-ResourceReload-1/INFO] [voicechat/]: [voicechat] Using Cloth Config GUI
+[20Mar2024 22:06:57.197] [Worker-ResourceReload-1/INFO] [voicechat/]: [voicechat] Loading Opus
+[20Mar2024 22:06:57.327] [Worker-ResourceReload-5/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:item/soul_wither: [3, 4, 5]
+[20Mar2024 22:06:57.347] [Worker-ResourceReload-0/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:item/soul_hunter: [3, 4, 5]
+[20Mar2024 22:06:57.365] [Worker-ResourceReload-0/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jet_and_elias_armors:item/sentinelbootsitem with size 560x354 limits mip level from 4 to 1
+[20Mar2024 22:06:57.365] [Worker-ResourceReload-0/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jet_and_elias_armors:item/drifterbootsitem with size 543x349 limits mip level from 1 to 0
+[20Mar2024 22:06:57.638] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_stellarity] Found status: OUTDATED Current: 2.0d Target: 2.0e
+[20Mar2024 22:06:57.638] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Starting version check at http://changelogs.moddinglegacy.com/blue-skies.json
+[20Mar2024 22:06:57.984] [Render thread/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2
+[20Mar2024 22:06:58.147] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'torchmaster:blockstates/invisible_light.json' missing model for variant: 'torchmaster:invisible_light#'
+[20Mar2024 22:06:58.147] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'torchmaster:blockstates/invisible_light.json' in resourcepack: 'mod_resources': Neither 'variants' nor 'multipart' found
+[20Mar2024 22:06:58.167] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:grudbone' referenced from: born_in_chaos_v1:gnawed_bones#facing=north,waterlogged=true: java.io.FileNotFoundException: minecraft:models/grudbone.json
+[20Mar2024 22:06:58.173] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:puddleofintoxication' referenced from: born_in_chaos_v1:puddleofintoxication#waterlogged=true: java.io.FileNotFoundException: minecraft:models/puddleofintoxication.json
+[20Mar2024 22:06:58.174] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:shellspikes' referenced from: born_in_chaos_v1:spiny_shell_trap#waterlogged=true: java.io.FileNotFoundException: minecraft:models/shellspikes.json
+[20Mar2024 22:06:58.174] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:houndtrap' referenced from: born_in_chaos_v1:hound_trap#facing=north,waterlogged=true: java.io.FileNotFoundException: minecraft:models/houndtrap.json
+[20Mar2024 22:06:58.174] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:houndtrapserried' referenced from: born_in_chaos_v1:closed_hound_trap#facing=north,waterlogged=true: java.io.FileNotFoundException: minecraft:models/houndtrapserried.json
+[20Mar2024 22:06:58.187] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:rune_table_block' referenced from: illagerrevolutionmod:rune_table_block#facing=north: java.io.FileNotFoundException: minecraft:models/rune_table_block.json
+[20Mar2024 22:06:58.188] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:drum_block' referenced from: illagerrevolutionmod:drum_speed#facing=north: java.io.FileNotFoundException: minecraft:models/drum_block.json
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=west,half=true,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=north,half=true,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=north,half=false,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=west,half=false,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=south,half=true,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=south,half=false,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=east,half=true,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=east,half=false,slots=3'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=north,half=true'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=south,half=true'
+[20Mar2024 22:06:58.393] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=west,half=true'
+[20Mar2024 22:06:58.394] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=east,half=true'
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:staffmagicarrows' referenced from: born_in_chaos_v1:staffof_magic_arrows#inventory: java.io.FileNotFoundException: minecraft:models/staffmagicarrows.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:boncolerstaf' referenced from: born_in_chaos_v1:staffofthe_summoner#inventory: java.io.FileNotFoundException: minecraft:models/boncolerstaf.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:pumpkinstaff' referenced from: born_in_chaos_v1:pumpkin_staff#inventory: java.io.FileNotFoundException: minecraft:models/pumpkinstaff.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:pumpkinpistol' referenced from: born_in_chaos_v1:pumpkin_pistol#inventory: java.io.FileNotFoundException: minecraft:models/pumpkinpistol.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:scythe' referenced from: born_in_chaos_v1:nightmare_scythe#inventory: java.io.FileNotFoundException: minecraft:models/scythe.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:topor' referenced from: born_in_chaos_v1:great_reaper_axe#inventory: java.io.FileNotFoundException: minecraft:models/topor.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:soulsaber' referenced from: born_in_chaos_v1:soul_cutlass#inventory: java.io.FileNotFoundException: minecraft:models/soulsaber.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:greatdarksword' referenced from: born_in_chaos_v1:darkwarblade#inventory: java.io.FileNotFoundException: minecraft:models/greatdarksword.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:molotoc' referenced from: born_in_chaos_v1:skullbreaker_hammer#inventory: java.io.FileNotFoundException: minecraft:models/molotoc.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:shellmace' referenced from: born_in_chaos_v1:shell_mace#inventory: java.io.FileNotFoundException: minecraft:models/shellmace.json
+[20Mar2024 22:06:58.414] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:hayfork' referenced from: born_in_chaos_v1:trident_hayfork#inventory: java.io.FileNotFoundException: minecraft:models/hayfork.json
+[20Mar2024 22:06:58.416] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'deeperdarker:sculk_tendrils_plant#inventory' referenced from: deeperdarker:sculk_tendrils_plant#inventory: java.io.FileNotFoundException: deeperdarker:models/item/sculk_tendrils_plant.json
+[20Mar2024 22:06:58.416] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'deeperdarker:sculk_vines_plant#inventory' referenced from: deeperdarker:sculk_vines_plant#inventory: java.io.FileNotFoundException: deeperdarker:models/item/sculk_vines_plant.json
+[20Mar2024 22:06:58.416] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'deeperdarker:otherside_portal#inventory' referenced from: deeperdarker:otherside_portal#inventory: java.io.FileNotFoundException: deeperdarker:models/item/otherside_portal.json
+[20Mar2024 22:06:58.456] [Render thread/INFO] [xaero.common.MinimapLogs/]: Registered player tracker system: minimap_synced
+[20Mar2024 22:06:58.456] [Render thread/INFO] [xaero.common.MinimapLogs/]: Xaero's Minimap: World Map found!
+[20Mar2024 22:06:58.456] [Render thread/INFO] [xaero.common.MinimapLogs/]: No Optifine!
+[20Mar2024 22:06:58.456] [Render thread/INFO] [xaero.common.MinimapLogs/]: Xaero's Minimap: No Vivecraft!
+[20Mar2024 22:06:58.457] [Render thread/INFO] [xaero.common.MinimapLogs/]: Xaero's Minimap: Iris found!
+[20Mar2024 22:06:58.457] [Render thread/INFO] [xaero.map.WorldMap/]: Loading Xaero's World Map - Stage 2/2
+[20Mar2024 22:06:58.463] [Render thread/INFO] [xaero.map.WorldMap/]: New world map region cache hash code: -413293874
+[20Mar2024 22:06:58.464] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: map_synced
+[20Mar2024 22:06:58.470] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's WorldMap Mod: Xaero's minimap found!
+[20Mar2024 22:06:58.474] [Render thread/INFO] [xaero.map.WorldMap/]: Registered player tracker system: minimap_synced
+[20Mar2024 22:06:58.474] [Render thread/INFO] [xaero.map.WorldMap/]: No Optifine!
+[20Mar2024 22:06:58.474] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: No Vivecraft!
+[20Mar2024 22:06:58.474] [Render thread/INFO] [xaero.map.WorldMap/]: Xaero's World Map: Iris found!
+[20Mar2024 22:06:58.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Found status: BETA Current: 1.3.31 Target: null
+[20Mar2024 22:06:58.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.20.1-develop/update.json
+[20Mar2024 22:06:59.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: UP_TO_DATE Current: 1.20.1-1.3.1-neoforge Target: null
+[20Mar2024 22:06:59.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/illagerinvasion.json
+[20Mar2024 22:06:59.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [illagerinvasion] Found status: UP_TO_DATE Current: 8.0.4 Target: null
+[20Mar2024 22:06:59.473] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Starting version check at https://updates.blamejared.com/get?n=controlling&gv=1.20.1
+[20Mar2024 22:06:59.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [controlling] Found status: BETA Current: 12.0.2 Target: 12.0.2
+[20Mar2024 22:06:59.750] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Starting version check at https://mc-update-check.anthonyhilyard.com/638111
+[20Mar2024 22:07:00.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [prism] Found status: UP_TO_DATE Current: 1.0.5 Target: null
+[20Mar2024 22:07:00.572] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.20.1
+[20Mar2024 22:07:00.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 20.1.9 Target: 20.1.9
+[20Mar2024 22:07:00.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Starting version check at https://gh.tamaized.com/TeamTwilight/twilightforest/update.json
+[20Mar2024 22:07:01.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [twilightforest] Found status: AHEAD Current: 4.3.2145 Target: null
+[20Mar2024 22:07:01.117] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/1.20/forge/update.json
+[20Mar2024 22:07:01.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: BETA Current: 1.20-2.8.6 Target: null
+[20Mar2024 22:07:01.199] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[20Mar2024 22:07:01.418] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model born_in_chaos_v1:great_reaper_axe#inventory:
+    minecraft:textures/atlas/blocks.png:born_in_chaos_v1:block/
+[20Mar2024 22:07:01.419] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model illagerrevolutionmod:fake_alt_runed_blade#inventory:
+    minecraft:textures/atlas/blocks.png:illagerrevolutionmod:item/illagium_alt_runed_blade
+[20Mar2024 22:07:01.419] [Worker-ResourceReload-8/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model illagerrevolutionmod:soul_slash#inventory:
+    minecraft:textures/atlas/blocks.png:illagerrevolutionmod:item/soul_slash_gui
+[20Mar2024 22:07:01.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.1 Target: null
+[20Mar2024 22:07:01.613] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[20Mar2024 22:07:01.648] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/blaze_powder", duplicates item "minecraft:blaze_powder" found in "embeddiumplus:dynamiclights/item/blaze_powder".
+[20Mar2024 22:07:01.648] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/blaze_rod", duplicates item "minecraft:blaze_rod" found in "embeddiumplus:dynamiclights/item/blaze_rod".
+[20Mar2024 22:07:01.648] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/campfire", duplicates item "minecraft:campfire" found in "embeddiumplus:dynamiclights/item/campfire".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/fire_charge", duplicates item "minecraft:fire_charge" found in "embeddiumplus:dynamiclights/item/fire_charge".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/glow_berries", duplicates item "minecraft:glow_berries" found in "embeddiumplus:dynamiclights/item/glow_berries".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/glow_ink_sac", duplicates item "minecraft:glow_ink_sac" found in "embeddiumplus:dynamiclights/item/glow_ink_sac".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/glowstone_dust", duplicates item "minecraft:glowstone_dust" found in "embeddiumplus:dynamiclights/item/glowstone_dust".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/lava_bucket", duplicates item "minecraft:lava_bucket" found in "embeddiumplus:dynamiclights/item/lava_bucket".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/nether_star", duplicates item "minecraft:nether_star" found in "embeddiumplus:dynamiclights/item/nether_star".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/prismarine_crystals", duplicates item "minecraft:prismarine_crystals" found in "embeddiumplus:dynamiclights/item/prismarine_crystals".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/redstone_torch", duplicates item "minecraft:redstone_torch" found in "embeddiumplus:dynamiclights/item/redstone_torch".
+[20Mar2024 22:07:01.649] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/soul_campfire", duplicates item "minecraft:soul_campfire" found in "embeddiumplus:dynamiclights/item/soul_campfire".
+[20Mar2024 22:07:01.650] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/soul_torch", duplicates item "minecraft:soul_torch" found in "embeddiumplus:dynamiclights/item/soul_torch".
+[20Mar2024 22:07:01.650] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/spectral_arrow", duplicates item "minecraft:spectral_arrow" found in "embeddiumplus:dynamiclights/item/spectral_arrow".
+[20Mar2024 22:07:01.650] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/torch", duplicates item "minecraft:torch" found in "embeddiumplus:dynamiclights/item/torch".
+[20Mar2024 22:07:01.674] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 13 journal_lang
+[20Mar2024 22:07:01.941] [Worker-ResourceReload-9/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying mega torch entity block list overrides...
+[20Mar2024 22:07:01.941] [Worker-ResourceReload-9/INFO] [net.xalcon.torchmaster.Torchmaster/]: Applying dread lamp entity block list overrides...
+[20Mar2024 22:07:01.948] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[20Mar2024 22:07:01.962] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at twilightforest.compat.jade.JadeCompat
+[20Mar2024 22:07:01.966] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[20Mar2024 22:07:01.967] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[20Mar2024 22:07:01.969] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[20Mar2024 22:07:01.970] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[20Mar2024 22:07:01.991] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[20Mar2024 22:07:01.994] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[20Mar2024 22:07:01.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: AHEAD Current: 1.20.1-1.0.12 Target: null
+[20Mar2024 22:07:01.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Starting version check at https://mc-update-check.anthonyhilyard.com/499826
+[20Mar2024 22:07:01.999] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at de.maxhenkel.pipez.integration.waila.PluginPipes
+[20Mar2024 22:07:02.000] [Worker-ResourceReload-7/INFO] [Jade/]: Start loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+[20Mar2024 22:07:02.002] [Worker-ResourceReload-7/ERROR] [Jade/]: Error loading plugin at com.jaquadro.minecraft.storagedrawers.integration.Waila
+java.lang.NullPointerException: null
+	at java.util.Objects.requireNonNull(Objects.java:208) ~[?:?]
+	at snownee.jade.impl.HierarchyLookup.register(HierarchyLookup.java:42) ~[Jade-1.20.1-forge-11.8.0.jar%23293!/:11.8.0]
+	at snownee.jade.impl.WailaClientRegistration.registerBlockComponent(WailaClientRegistration.java:106) ~[Jade-1.20.1-forge-11.8.0.jar%23293!/:11.8.0]
+	at com.jaquadro.minecraft.storagedrawers.integration.Waila.registerClient(Waila.java:28) ~[storagedrawers-1.20.1-12.0.3.jar%23321!/:1.20.1-12.0.3]
+	at snownee.jade.util.CommonProxy.loadComplete(CommonProxy.java:195) ~[Jade-1.20.1-forge-11.8.0.jar%23293!/:11.8.0]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%23137!/:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%23137!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23137!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%23137!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:107) ~[javafmllanguage-1.20.1-47.2.0.jar%23340!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:124) ~[fmlcore-1.20.1-47.2.0.jar%23339!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[20Mar2024 22:07:02.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [advancementplaques] Found status: UP_TO_DATE Current: 1.5.1 Target: null
+[20Mar2024 22:07:02.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Starting version check at https://updates.blamejared.com/get?n=searchables&gv=1.20.1
+[20Mar2024 22:07:02.309] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20Mar2024 22:07:02.309] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20Mar2024 22:07:02.311] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: supplementaries:item.wrench.hit
+[20Mar2024 22:07:02.311] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:ignisshieldbreak
+[20Mar2024 22:07:02.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [searchables] Found status: BETA Current: 1.0.2 Target: 1.0.2
+[20Mar2024 22:07:02.328] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.20.1-develop/update.json
+[20Mar2024 22:07:02.354] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[20Mar2024 22:07:02.356] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20Mar2024 22:07:02.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: UP_TO_DATE Current: 1.20.1-1.0.0-neoforge Target: null
+[20Mar2024 22:07:02.499] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Starting version check at https://api.modrinth.com/updates/radium/forge_updates.json
+[20Mar2024 22:07:02.536] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x8192x4 minecraft:textures/atlas/blocks.png-atlas
+[20Mar2024 22:07:02.742] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/signs.png-atlas
+[20Mar2024 22:07:02.745] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20Mar2024 22:07:02.749] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20Mar2024 22:07:02.752] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20Mar2024 22:07:02.774] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20Mar2024 22:07:02.777] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
+[20Mar2024 22:07:02.780] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20Mar2024 22:07:02.782] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20Mar2024 22:07:02.842] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [radium] Found status: UP_TO_DATE Current: 0.12.2+git.5f80f74 Target: null
+[20Mar2024 22:07:02.842] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[20Mar2024 22:07:02.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.3 Target: 12.0.0.3
+[20Mar2024 22:07:02.930] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzlesaccessapi.json
+[20Mar2024 22:07:03.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzlesaccessapi] Found status: BETA Current: 8.0.7 Target: null
+[20Mar2024 22:07:03.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to aether:whirlwind, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to aether:evil_whirlwind, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to twilightforest:plateau_boss, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to twilightforest:roving_cube, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:decaying_zombie_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:door_knight_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bonescaller_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:supreme_bonescaller_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:skeleton_thrasher_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dread_hound_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:firelight_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.170] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_clown_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:pumpkin_bomb, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:infernal_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:decrepit_skeleton, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:skeleton_demoman, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:decaying_zombie, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:baby_skeleton, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:siamese_skeletons, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.172] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:barrel_zombie, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.173] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:phantom_creeper, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.173] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:door_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.173] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:restless_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.173] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:skeleton_thrasher, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.173] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:pumpkin_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.173] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:seared_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.173] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:firelight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:diamond_termite, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bonescaller, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:supreme_bonescaller, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bone_imp, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:nightmare_stalker, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dark_vortex, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dread_hound, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dire_hound_leader, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.174] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:fallen_chaos_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:scarlet_persecutor, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:spirit_guide, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_clown, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:maggot, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:corpse_fly, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bloody_gadfly, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:swarmer, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_fisherman, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_lumberjack, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_bruiser, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:thornshell_crab, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:corpse_fish, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:glutton_fish, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:missioner, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:mr_pumpkin, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.175] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:sir_pumpkinhead, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:senor_pumpkin, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_pumpkinhead, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:baby_skeleton_minion, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:controlled_baby_skeleton, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:phantom_creeper_copy, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bone_imp_minion, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:supreme_bonescaller_stage_2, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:spirit_guide_assistant, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:mr_pumpkin_controlled, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:sir_pumpkinhead_without_horse, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:sir_the_headless, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:pumpkinhead, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:riding_felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.176] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:seared_spirit_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lords_felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_pumpkinhead_withouta_horse, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_the_headless, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_pumpkinhead_head, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:riding_lords_felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:siamese_skeletonsleft, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:siamese_skeletonsright, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:illager_scavenger, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:illager_miner, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:acolyte, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:scrounger, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:raker, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:mauler, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:wild_ravager, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:illager_beast_tamer, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:zombified, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.177] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:fallen_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.178] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:blade_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.178] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:soul_sage, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.178] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:bulkwark, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.178] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:soul_eater, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:03.195] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader position_tex_color could not find uniform named ColorModulator in the specified shader program.
+[20Mar2024 22:07:03.226] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20Mar2024 22:07:03.265] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader lootbeams:particle_add could not find sampler named Sampler2 in the specified shader program.
+[20Mar2024 22:07:03.277] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogStart in the specified shader program.
+[20Mar2024 22:07:03.277] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogEnd in the specified shader program.
+[20Mar2024 22:07:03.277] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogColor in the specified shader program.
+[20Mar2024 22:07:03.279] [Render thread/WARN] [ImmediatelyFast/]: Core shader modifications detected. Temporarily disabling some parts of ImmediatelyFast.
+[20Mar2024 22:07:03.400] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[20Mar2024 22:07:03.403] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20Mar2024 22:07:03.404] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20Mar2024 22:07:03.412] [Render thread/INFO] [xaero.map.WorldMap/]: Successfully reloaded the world map shaders!
+[20Mar2024 22:07:03.416] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 twilightforest:textures/atlas/magic_paintings.png-atlas
+[20Mar2024 22:07:03.417] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[20Mar2024 22:07:03.419] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[20Mar2024 22:07:03.431] [Render thread/INFO] [xaero.common.MinimapLogs/]: Successfully reloaded the minimap shaders!
+[20Mar2024 22:07:03.451] [Render thread/INFO] [net.Pandarix.betterarcheology.BetterArcheology/]: BetterArcheology Mixin initialized, prepare for impact
+[20Mar2024 22:07:03.468] [Render thread/INFO] [Oculus/]: Creating pipeline for dimension NamespacedId{namespace='minecraft', name='overworld'}
+[20Mar2024 22:07:03.482] [Render thread/INFO] [net.Pandarix.betterarcheology.BetterArcheology/]: BetterArcheology Mixin initialized, prepare for impact
+[20Mar2024 22:07:03.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.2.0 Target: null
+[20Mar2024 22:07:03.574] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[20Mar2024 22:07:03.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.20.1-2.5.9 Target: null
+[20Mar2024 22:07:03.667] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Starting version check at https://updates.blamejared.com/get?n=enchdesc&gv=1.20.1
+[20Mar2024 22:07:03.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [enchdesc] Found status: BETA Current: 17.0.14 Target: 17.0.14
+[20Mar2024 22:07:03.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[20Mar2024 22:07:03.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.11.4 Target: null
+[20Mar2024 22:07:03.838] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Starting version check at https://update.maxhenkel.de/forge/pipez
+[20Mar2024 22:07:03.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pipez] Found status: AHEAD Current: 1.20.1-1.2.6 Target: null
+[20Mar2024 22:07:03.925] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Starting version check at https://mc-update-check.anthonyhilyard.com/520110
+[20Mar2024 22:07:04.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [iceberg] Found status: UP_TO_DATE Current: 1.1.21 Target: null
+[20Mar2024 22:07:04.163] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [legendarytooltips] Starting version check at https://mc-update-check.anthonyhilyard.com/532127
+[20Mar2024 22:07:04.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [legendarytooltips] Found status: UP_TO_DATE Current: 1.4.5 Target: null
+[20Mar2024 22:07:04.405] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Starting version check at https://api.modrinth.com/updates/rubidium-extra/forge_updates.json
+[20Mar2024 22:07:04.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [embeddium_extra] Found status: UP_TO_DATE Current: 0.5.4.2+mc1.20.1-build.118 Target: null
+[20Mar2024 22:07:04.669] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[20Mar2024 22:07:04.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 8.1.18 Target: null
+[20Mar2024 22:07:04.757] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rrls] Starting version check at https://api.modrinth.com/updates/rrls/forge_updates.json
+[20Mar2024 22:07:05.022] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [rrls] Found status: UP_TO_DATE Current: 3.2.0-1.20.1-forge Target: null
+[20Mar2024 22:07:05.529] [Render thread/WARN] [ModernFix/]: Game took 39.614 seconds to start
+[20Mar2024 22:07:10.486] [Render thread/INFO] [mixin/]: Mixing client.MixinChatOptionsScreen from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.screens.ChatOptionsScreen
+[20Mar2024 22:07:10.486] [Render thread/INFO] [mixin/]: Renaming synthetic method lambda$init$0(Lnet/minecraft/client/gui/components/AbstractWidget;)V to md2e8247$lambda$init$0$0 in mixins/common/nochatreports.mixins.json:client.MixinChatOptionsScreen
+[20Mar2024 22:07:10.493] [Render thread/INFO] [mixin/]: Mixing client.MixinRowHelper from mixins/common/nochatreports.mixins.json into net.minecraft.client.gui.layouts.GridLayout$RowHelper
+[20Mar2024 22:07:11.495] [Render thread/ERROR] [net.minecraft.client.Options/]: Error saving option Brightness: DynamicException[Value 15.0 outside of range [0.0:1.0] Optional[15.0]]
+[20Mar2024 22:07:19.705] [Render thread/ERROR] [net.minecraft.client.Options/]: Error saving option Brightness: DynamicException[Value 15.0 outside of range [0.0:1.0] Optional[15.0]]
+[20Mar2024 22:07:19.718] [Render thread/INFO] [ModernFix/]: Invalidating pack caches
+[20Mar2024 22:07:19.718] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, Moonlight Mods Dynamic Assets, file/FreshAnimations_v1.9.zip
+[20Mar2024 22:07:19.730] [Render thread/WARN] [Amendments/]: Failed to generate record item texture for defying_starlight. No model / texture found
+[20Mar2024 22:07:19.749] [Render thread/INFO] [Amendments/]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (amendments) in: 27 ms
+[20Mar2024 22:07:19.781] [Render thread/INFO] [Supplementaries/]: Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (supplementaries) in: 32 ms
+[20Mar2024 22:07:19.801] [Worker-ResourceReload-7/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: idle
+[20Mar2024 22:07:19.803] [Worker-ResourceReload-0/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[20Mar2024 22:07:19.805] [Worker-ResourceReload-5/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: idle
+[20Mar2024 22:07:19.819] [Worker-ResourceReload-7/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: idle
+[20Mar2024 22:07:19.830] [Worker-ResourceReload-2/ERROR] [software.bernie.geckolib.GeckoLib/]: Unable to parse animation: attack
+[20Mar2024 22:07:19.984] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_1.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_1
+[20Mar2024 22:07:19.984] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_2.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_2
+[20Mar2024 22:07:19.984] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_hit1.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_hit1
+[20Mar2024 22:07:19.984] [Worker-ResourceReload-3/WARN] [net.minecraft.client.sounds.SoundManager/]: File illagerrevolutionmod:sounds/blade_slash_hit2.ogg does not exist, cannot add it to event illagerrevolutionmod:blade_slash_hit2
+[20Mar2024 22:07:20.015] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 1: 1
+[20Mar2024 22:07:20.015] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 2: 2
+[20Mar2024 22:07:20.015] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 3: 3
+[20Mar2024 22:07:20.015] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 4: 4
+[20Mar2024 22:07:20.015] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 5: 5
+[20Mar2024 22:07:20.015] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Invalid frame index on sprite born_in_chaos_v1:dimanim frame 6: 6
+[20Mar2024 22:07:20.015] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:soul_projectile: [5]
+[20Mar2024 22:07:20.043] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:soul_rune: [5]
+[20Mar2024 22:07:20.043] [Worker-ResourceReload-3/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:curse_rune: [5]
+[20Mar2024 22:07:20.289] [Worker-ResourceReload-1/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:item/soul_projectile: [3, 4, 5]
+[20Mar2024 22:07:20.519] [Worker-ResourceReload-9/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:item/soul_wither: [3, 4, 5]
+[20Mar2024 22:07:20.546] [Worker-ResourceReload-1/WARN] [net.minecraft.client.renderer.texture.SpriteContents/]: Unused frames in sprite illagerrevolutionmod:item/soul_hunter: [3, 4, 5]
+[20Mar2024 22:07:20.561] [Worker-ResourceReload-8/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jet_and_elias_armors:item/sentinelbootsitem with size 560x354 limits mip level from 4 to 1
+[20Mar2024 22:07:20.561] [Worker-ResourceReload-8/WARN] [net.minecraft.client.renderer.texture.SpriteLoader/]: Texture jet_and_elias_armors:item/drifterbootsitem with size 543x349 limits mip level from 1 to 0
+[20Mar2024 22:07:21.036] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'torchmaster:blockstates/invisible_light.json' missing model for variant: 'torchmaster:invisible_light#'
+[20Mar2024 22:07:21.036] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'torchmaster:blockstates/invisible_light.json' in resourcepack: 'mod_resources': Neither 'variants' nor 'multipart' found
+[20Mar2024 22:07:21.050] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:grudbone' referenced from: born_in_chaos_v1:gnawed_bones#facing=north,waterlogged=true: java.io.FileNotFoundException: minecraft:models/grudbone.json
+[20Mar2024 22:07:21.055] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:puddleofintoxication' referenced from: born_in_chaos_v1:puddleofintoxication#waterlogged=true: java.io.FileNotFoundException: minecraft:models/puddleofintoxication.json
+[20Mar2024 22:07:21.055] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:shellspikes' referenced from: born_in_chaos_v1:spiny_shell_trap#waterlogged=true: java.io.FileNotFoundException: minecraft:models/shellspikes.json
+[20Mar2024 22:07:21.055] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:houndtrap' referenced from: born_in_chaos_v1:hound_trap#facing=north,waterlogged=true: java.io.FileNotFoundException: minecraft:models/houndtrap.json
+[20Mar2024 22:07:21.055] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:houndtrapserried' referenced from: born_in_chaos_v1:closed_hound_trap#facing=north,waterlogged=true: java.io.FileNotFoundException: minecraft:models/houndtrapserried.json
+[20Mar2024 22:07:21.065] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:rune_table_block' referenced from: illagerrevolutionmod:rune_table_block#facing=north: java.io.FileNotFoundException: minecraft:models/rune_table_block.json
+[20Mar2024 22:07:21.065] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:drum_block' referenced from: illagerrevolutionmod:drum_speed#facing=north: java.io.FileNotFoundException: minecraft:models/drum_block.json
+[20Mar2024 22:07:21.271] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=west,half=true,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=north,half=true,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=north,half=false,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=west,half=false,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=south,half=true,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=south,half=false,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=east,half=true,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_indicator.json' missing model for variant: 'storagedrawers:meta_indicator#facing=east,half=false,slots=3'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=north,half=true'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=south,half=true'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=west,half=true'
+[20Mar2024 22:07:21.272] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Exception loading blockstate definition: 'storagedrawers:blockstates/meta_comp_indicator.json' missing model for variant: 'storagedrawers:meta_comp_indicator#facing=east,half=true'
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:staffmagicarrows' referenced from: born_in_chaos_v1:staffof_magic_arrows#inventory: java.io.FileNotFoundException: minecraft:models/staffmagicarrows.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:boncolerstaf' referenced from: born_in_chaos_v1:staffofthe_summoner#inventory: java.io.FileNotFoundException: minecraft:models/boncolerstaf.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:pumpkinstaff' referenced from: born_in_chaos_v1:pumpkin_staff#inventory: java.io.FileNotFoundException: minecraft:models/pumpkinstaff.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:pumpkinpistol' referenced from: born_in_chaos_v1:pumpkin_pistol#inventory: java.io.FileNotFoundException: minecraft:models/pumpkinpistol.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:scythe' referenced from: born_in_chaos_v1:nightmare_scythe#inventory: java.io.FileNotFoundException: minecraft:models/scythe.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:topor' referenced from: born_in_chaos_v1:great_reaper_axe#inventory: java.io.FileNotFoundException: minecraft:models/topor.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:soulsaber' referenced from: born_in_chaos_v1:soul_cutlass#inventory: java.io.FileNotFoundException: minecraft:models/soulsaber.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:greatdarksword' referenced from: born_in_chaos_v1:darkwarblade#inventory: java.io.FileNotFoundException: minecraft:models/greatdarksword.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:molotoc' referenced from: born_in_chaos_v1:skullbreaker_hammer#inventory: java.io.FileNotFoundException: minecraft:models/molotoc.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:shellmace' referenced from: born_in_chaos_v1:shell_mace#inventory: java.io.FileNotFoundException: minecraft:models/shellmace.json
+[20Mar2024 22:07:21.288] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'minecraft:hayfork' referenced from: born_in_chaos_v1:trident_hayfork#inventory: java.io.FileNotFoundException: minecraft:models/hayfork.json
+[20Mar2024 22:07:21.290] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'deeperdarker:sculk_tendrils_plant#inventory' referenced from: deeperdarker:sculk_tendrils_plant#inventory: java.io.FileNotFoundException: deeperdarker:models/item/sculk_tendrils_plant.json
+[20Mar2024 22:07:21.290] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'deeperdarker:sculk_vines_plant#inventory' referenced from: deeperdarker:sculk_vines_plant#inventory: java.io.FileNotFoundException: deeperdarker:models/item/sculk_vines_plant.json
+[20Mar2024 22:07:21.290] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'deeperdarker:otherside_portal#inventory' referenced from: deeperdarker:otherside_portal#inventory: java.io.FileNotFoundException: deeperdarker:models/item/otherside_portal.json
+[20Mar2024 22:07:23.591] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model born_in_chaos_v1:great_reaper_axe#inventory:
+    minecraft:textures/atlas/blocks.png:born_in_chaos_v1:block/
+[20Mar2024 22:07:23.592] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model illagerrevolutionmod:fake_alt_runed_blade#inventory:
+    minecraft:textures/atlas/blocks.png:illagerrevolutionmod:item/illagium_alt_runed_blade
+[20Mar2024 22:07:23.592] [Worker-ResourceReload-6/WARN] [net.minecraft.client.resources.model.ModelManager/]: Missing textures in model illagerrevolutionmod:soul_slash#inventory:
+    minecraft:textures/atlas/blocks.png:illagerrevolutionmod:item/soul_slash_gui
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/blaze_powder", duplicates item "minecraft:blaze_powder" found in "embeddiumplus:dynamiclights/item/blaze_powder".
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/blaze_rod", duplicates item "minecraft:blaze_rod" found in "embeddiumplus:dynamiclights/item/blaze_rod".
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/campfire", duplicates item "minecraft:campfire" found in "embeddiumplus:dynamiclights/item/campfire".
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/fire_charge", duplicates item "minecraft:fire_charge" found in "embeddiumplus:dynamiclights/item/fire_charge".
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/glow_berries", duplicates item "minecraft:glow_berries" found in "embeddiumplus:dynamiclights/item/glow_berries".
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/glow_ink_sac", duplicates item "minecraft:glow_ink_sac" found in "embeddiumplus:dynamiclights/item/glow_ink_sac".
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/glowstone_dust", duplicates item "minecraft:glowstone_dust" found in "embeddiumplus:dynamiclights/item/glowstone_dust".
+[20Mar2024 22:07:23.768] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/lava_bucket", duplicates item "minecraft:lava_bucket" found in "embeddiumplus:dynamiclights/item/lava_bucket".
+[20Mar2024 22:07:23.769] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/nether_star", duplicates item "minecraft:nether_star" found in "embeddiumplus:dynamiclights/item/nether_star".
+[20Mar2024 22:07:23.769] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/prismarine_crystals", duplicates item "minecraft:prismarine_crystals" found in "embeddiumplus:dynamiclights/item/prismarine_crystals".
+[20Mar2024 22:07:23.769] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/redstone_torch", duplicates item "minecraft:redstone_torch" found in "embeddiumplus:dynamiclights/item/redstone_torch".
+[20Mar2024 22:07:23.769] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/soul_campfire", duplicates item "minecraft:soul_campfire" found in "embeddiumplus:dynamiclights/item/soul_campfire".
+[20Mar2024 22:07:23.769] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/soul_torch", duplicates item "minecraft:soul_torch" found in "embeddiumplus:dynamiclights/item/soul_torch".
+[20Mar2024 22:07:23.769] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/spectral_arrow", duplicates item "minecraft:spectral_arrow" found in "embeddiumplus:dynamiclights/item/spectral_arrow".
+[20Mar2024 22:07:23.769] [Render thread/WARN] [dynamiclightsreforged/]: [LambDynLights] Failed to register item light source "lambdynlights:dynamiclights/item/torch", duplicates item "minecraft:torch" found in "embeddiumplus:dynamiclights/item/torch".
+[20Mar2024 22:07:23.783] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 13 journal_lang
+[20Mar2024 22:07:23.988] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[20Mar2024 22:07:23.988] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20Mar2024 22:07:23.990] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: supplementaries:item.wrench.hit
+[20Mar2024 22:07:23.990] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: cataclysm:ignisshieldbreak
+[20Mar2024 22:07:24.025] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Realtek(R) Audio)
+[20Mar2024 22:07:24.025] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[20Mar2024 22:07:24.116] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 8192x8192x4 minecraft:textures/atlas/blocks.png-atlas
+[20Mar2024 22:07:24.251] [Render thread/INFO] [xaero.map.WorldMap/]: New world map region cache hash code: 268511380
+[20Mar2024 22:07:24.253] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/signs.png-atlas
+[20Mar2024 22:07:24.256] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20Mar2024 22:07:24.262] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20Mar2024 22:07:24.266] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x2048x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20Mar2024 22:07:24.284] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20Mar2024 22:07:24.285] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
+[20Mar2024 22:07:24.286] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20Mar2024 22:07:24.286] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20Mar2024 22:07:24.336] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to aether:whirlwind, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.336] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to aether:evil_whirlwind, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to twilightforest:plateau_boss, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to twilightforest:roving_cube, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:decaying_zombie_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:door_knight_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bonescaller_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:supreme_bonescaller_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:skeleton_thrasher_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dread_hound_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:firelight_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_clown_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:pumpkin_bomb, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:infernal_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:decrepit_skeleton, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:skeleton_demoman, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:decaying_zombie, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:baby_skeleton, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:siamese_skeletons, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:barrel_zombie, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:phantom_creeper, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:door_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:restless_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:skeleton_thrasher, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.337] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:pumpkin_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:seared_spirit, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:firelight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:diamond_termite, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bonescaller, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:supreme_bonescaller, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bone_imp, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:nightmare_stalker, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dark_vortex, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dread_hound, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:dire_hound_leader, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:fallen_chaos_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:scarlet_persecutor, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:spirit_guide, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_clown, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:maggot, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:corpse_fly, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bloody_gadfly, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:swarmer, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_fisherman, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_lumberjack, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:zombie_bruiser, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:thornshell_crab, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:corpse_fish, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.338] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:glutton_fish, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:missioner, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:mr_pumpkin, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:sir_pumpkinhead, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:senor_pumpkin, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_pumpkinhead, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:baby_skeleton_minion, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:controlled_baby_skeleton, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:phantom_creeper_copy, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:bone_imp_minion, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:supreme_bonescaller_stage_2, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:spirit_guide_assistant, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:mr_pumpkin_controlled, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:sir_pumpkinhead_without_horse, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:sir_the_headless, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:pumpkinhead, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:riding_felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:seared_spirit_not_despawn, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lords_felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_pumpkinhead_withouta_horse, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_the_headless, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:lord_pumpkinhead_head, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:riding_lords_felsteed, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:siamese_skeletonsleft, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to born_in_chaos_v1:siamese_skeletonsright, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.339] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:illager_scavenger, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:illager_miner, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:acolyte, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:scrounger, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:raker, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:mauler, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:wild_ravager, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:illager_beast_tamer, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:zombified, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:fallen_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:blade_knight, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:soul_sage, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:bulkwark, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.340] [Render thread/WARN] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Could not apply rainbow color layer to illagerrevolutionmod:soul_eater, has custom renderer that is not LivingEntityRenderer.
+[20Mar2024 22:07:24.344] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader position_tex_color could not find uniform named ColorModulator in the specified shader program.
+[20Mar2024 22:07:24.350] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20Mar2024 22:07:24.357] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader lootbeams:particle_add could not find sampler named Sampler2 in the specified shader program.
+[20Mar2024 22:07:24.358] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogStart in the specified shader program.
+[20Mar2024 22:07:24.359] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogEnd in the specified shader program.
+[20Mar2024 22:07:24.359] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader moonlight:text_alpha_color could not find uniform named FogColor in the specified shader program.
+[20Mar2024 22:07:24.359] [Render thread/WARN] [ImmediatelyFast/]: Core shader modifications detected. Temporarily disabling some parts of ImmediatelyFast.
+[20Mar2024 22:07:24.363] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x0 minecraft:textures/atlas/particles.png-atlas
+[20Mar2024 22:07:24.366] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20Mar2024 22:07:24.367] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20Mar2024 22:07:24.369] [Render thread/INFO] [xaero.map.WorldMap/]: Successfully reloaded the world map shaders!
+[20Mar2024 22:07:24.370] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 twilightforest:textures/atlas/magic_paintings.png-atlas
+[20Mar2024 22:07:24.371] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[20Mar2024 22:07:24.371] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[20Mar2024 22:07:24.374] [Render thread/INFO] [xaero.common.MinimapLogs/]: Successfully reloaded the minimap shaders!
+[20Mar2024 22:07:31.906] [Render thread/ERROR] [net.minecraft.client.Options/]: Error saving option Brightness: DynamicException[Value 15.0 outside of range [0.0:1.0] Optional[15.0]]
+[20Mar2024 22:07:31.906] [Render thread/INFO] [net.Pandarix.betterarcheology.BetterArcheology/]: BetterArcheology Mixin initialized, prepare for impact
+[20Mar2024 22:07:32.969] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
